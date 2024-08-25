@@ -144,13 +144,25 @@ button:hover {
         margin: 10px;
         width: 26rem;
     }
+    .header {
+        height: 10rem;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1 {
+        margin: 1rem;
+    }
     #new-task {
         margin: 10px;
         width: 20rem;
     }
     .todo-container {
-        margin: 20px;
+        height: 10rem;
+      
     }
+
     .close-btn {
         margin-right: 15px;
     }

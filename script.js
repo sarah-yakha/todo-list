@@ -93,7 +93,8 @@ class ToDoList {
 
             const deleteButton = document.createElement('button');
             deleteButton.textContent = 'Удалить';
-            deleteButton.onclick = () => this.deleteTask(index);
+            deleteButton.addEventListener('click', () => {
+                this.deleteTask(index)});
 
             li.append(taskSpan);
             li.append(deleteButton);
